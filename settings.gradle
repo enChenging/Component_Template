@@ -1,0 +1,9 @@
+include ':annotation_compiler'
+include ':annotation'
+include ':router'
+include ':basic'
+include ':common'
+include ':pay'
+include ':login'
+include ':app'
+rootProject.name = "Component_Template"
