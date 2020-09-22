@@ -1,11 +1,4 @@
 package com.release.common;
-
-/**
- * @author Mr.release
- * @create 2020/9/22
- * @Describe
- */
-
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.LiveData;
@@ -18,7 +11,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 管理所有的LiveData的
+ * @author Mr.release
+ * @create 2020/9/22
+ * @Describe 管理所有的LiveData的
  */
 public class LiveDataBus {
     private static LiveDataBus liveDataBus = new LiveDataBus();
